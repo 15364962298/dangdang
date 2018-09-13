@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>当当官网</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="shortcut icon" href="img/54.jpg" type="image/jpg">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<style>
+		.banner1{
+			width: 796px;
+			height: 326px;
+			background: #fff;
+			margin: 0 auto;
+		}
+		.banner-img{
+			width: 100%;
+			height: 100%;
+			background: yellow;
+			/*position: relative;*/
+		}
+		.banner-img div{
+			width: 100%;
+			height: 100%;
+			/*position: absolute;
+			top: 0;
+			left: 0;*/
+			/*z-index: 0~999*/
+		}
+		img{
+			width: 100%;
+			height: 100%;
+		}
+		.swiper-pagination-bullet{
+			width: 20px;
+			height: 20px;
+			color: #fff;
+			background: red;
+			opacity: 0.8;
+		}
+		.swiper-pagination-bullet-active{
+			background: black;
+		}
+		.btn{
+			width: 33px;
+			height: 70px;
+			background: rgba(0,0,0,0.6);
+		}
+		.swiper-button-prev{
+			left:0; 
+			width: 33px;
+			height: 70px;
+			background: rgba(0,0,0,0.6);
+			color:#fff;
+			font-size: 40px;
+			line-height: 70px;
+			text-align: center;
+		}
+		.swiper-button-next{
+			right: 0;
+			width: 33px;
+			height: 70px;
+			background: rgba(0,0,0,0.6);
+			color:#fff;
+			font-size: 40px;
+			line-height: 70px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="zuishangbian">
+	</div>
+	<!-- 导航栏开始 -->
+	<nav>
+		<div class="navg">
+			<a href="" class="area">送至：<span>北京</span> <i class="iconfont">&#xe61a;</i></a>
+			<div class="welcome">
+				<span>欢迎光临当当，请<a href="" class="denglu">登录</a> <a href="" class="huiyuan">成为会员</a></span>
+			</div>
+			<ul>
+				<li>
+					<a href="" class="text1"><i class="iconfont">&#xe601;</i> 购物车0</a>
+				</li>
+				<li>
+					<a href="" class="text2">我的订单</a>
+				</li>
+				<li>
+					<a href="" class="text3">我的云书房</a>
+				</li>
+				<li class="bianse">
+					<a href="" class="text4">我的当当 <i class="iconfont">&#xe61a;</i></a>
+				</li>
+				<li>
+					<a href="" class="text5">小说投稿</a>
+				</li>
+				<li class="bianse">
+					<a href="" class="text6">企业采购 <i class="iconfont">&#xe61a;</i></a>
+				</li>
+				<li class="bianse">
+					<a href="" class="text6">客户服务 <i class="iconfont">&#xe61a;</i></a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- 导航栏结束 -->
+
+	<!-- logo搜索栏开始 -->
+	<div class="logo_line">
+		<a href="" class="logo">
+			<img src="img/logo.png" alt="">
+		</a>
+		<div class="search">
+			<input type="text" placeholder="App爆品直降">
+			<button><i class="iconfont">&#xe61d;</i></button>
+			<a href="" class="fenlei">
+				<span>全部分类</span>
+				<i class="iconfont">&#xe647;</i>
+			</a>
+			<div class="hot">
+				<span>热搜：</span> 
+				<a href="">傅雷家书</a>
+				<a href="">女装分会场</a>
+				<a href="">十二生肖</a>
+				<a href="">Apple</a>
+				<a href="">运动馆</a>
+				<a href="">尾品会</a>
+				<a href="">高级搜索</a>
+			</div>
+		</div>
+		<div class="gouwu">
+			<a href="" class="car">
+				<span><i class="iconfont">&#xe601;</i></span>
+				<span>购物车</span>
+				<span>0</span>
+			</a>
+			<a href="" class="dingdan">
+				<span>我的订单</span>
+			</a>
+		</div>
+	</div>
+	<!-- logo搜索栏结束 -->
+
+	<!-- 小导航栏开始 -->
+	<div class="nav_min">
+		<ul>
+			<li class="all">
+				<a href="">全部商品分类</a> <a href=""><i class="iconfont">&#xe658;</i></a>
+			</li>
+			<li><a href="" class="text">尾品会</a></li>
+			<li><a href="" class="text">图书</a></li>
+			<li><a href="" class="text">电子书</a></li>
+			<li><a href="" class="text">网络文学</a></li>
+			<li><a href="" class="text">服装</a></li>
+			<li><a href="" class="text">运动户外</a></li>
+			<li><a href="" class="text">孕婴童</a></li>
+			<li><a href="" class="text">家居</a></li>
+			<li><a href="" class="text">创意文具</a></li>
+			<li><a href="" class="text">食盒</a></li>
+			<li><a href="" class="text">Apple</a></li>
+			<li><a href="" class="text">电器城</a></li>
+		</ul>
+	</div>
+	<!-- 小导航栏结束 -->
+
+	<!-- banner开始 -->
+	<div class="banner">
+		<ul class="aside">
+			<li>
+				<a href="" class="text1">图书</a>、<a href="" class="text1">童书</a>
+			</li>
+			<li>
+				<a href="" class="text1">电子书</a>、<a href="" class="text1">网络文学</a>
+			</li>
+			<li>
+				<a href="" class="text1">创意文具</a>、<a href="" class="text1">当当拍卖</a>
+			</li>
+			<li>
+				<a href="" class="text1">服饰</a>、<a href="" class="text1">内衣</a>
+			</li>
+			<li>
+				<a href="" class="text1">鞋靴</a>、<a href="" class="text1">箱包</a>
+			</li>
+			<li>
+				<a href="" class="text1">运动户外</a>
+			</li>
+			<li>
+				<a href="" class="text1">孕</a>、<a href="" class="text1">婴</a>、<a href="" class="text1">童</a>
+			</li>
+			<li>
+				<a href="" class="text1">家居</a>、<a href="" class="text1">家纺</a>、<a href="" class="text1">汽车</a>
+			</li>
+			<li>
+				<a href="" class="text1">家居</a>、<a href="" class="text1">家装</a>、<a href="" class="text1">康体</a>
+			</li>
+			<li>
+				<a href="" class="text1">美妆</a>、<a href="" class="text1">个人护理</a>、<a href="" class="text1">成人</a>
+			</li>
+			<li>
+				<a href="" class="text1">食品</a>、<a href="" class="text1">茶酒</a>、<a href="" class="text1">生鲜</a>
+			</li>
+			<li>
+				<a href="" class="text1">腕表</a>、<a href="" class="text1">珠宝饰品</a>、<a href="" class="text1">眼镜</a>
+			</li>
+			<li>
+				<a href="" class="text1">手机</a>、<a href="" class="text1">数码</a>
+			</li>
+			<li>
+				<a href="" class="text1">电脑办公</a>
+			</li>
+			<li>
+				<a href="" class="text1">家用电器</a>
+			</li>
+			<li>
+				<a href="" class="text1">当当礼品卡</a>、<a href="" class="text1">生活服务</a>
+			</li>
+		</ul>
+		<!-- <div class="banner_center"> -->
+			<!-- <a href="" class="picture">
+				<img src="img/7.jpg" alt="">
+				<img src="img/6.jpg" alt="">
+				<img src="img/5.jpg" alt="">
+				<img src="img/4.jpg" alt="">
+				<img src="img/3.jpg" alt="">
+				<img src="img/2.jpg" alt="">
+				<img src="img/1.jpg" alt="">
+				<div href="" class="anniu_left">&lt;</div>
+				<div href="" class="anniu_right">&gt;</div>
+				<ul class="point">	
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+					<li>7</li>
+					<li>8</li>
+				</ul>
+			</a> -->
+		<div class="banner_center">
+			<div class="banner1 swiper-container">
+				<div class="banner-img swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="img/1.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/2.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/3.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/4.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/5.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/6.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/7.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/8.jpg" alt="">
+					</div>
+				</div>
+		
+				<div class="swiper-button-prev btn">&lt;</div>
+		    	<div class="swiper-button-next btn">&gt;</div>
+
+		    	<div class="swiper-pagination"></div>
+			</div>
+			<div class="show">
+				<a href="" class="box">
+					<img src="img/9.jpg" alt="">
+					<div class="zhezhao"></div>
+				</a>
+				<a href="" class="box">
+					<img src="img/10.jpg" alt="">
+					<div class="zhezhao"></div>
+				</a>
+				<a href="" class="box">
+					<img src="img/11.jpg" alt="">
+					<div class="zhezhao"></div>
+				</a>
+				<a href="" class="box">
+					<img src="img/12.jpg" alt="">
+					<div class="zhezhao"></div>
+				</a>
+				<div href="" class="anniu_left1">&lt;</div>
+				<div href="" class="anniu_right1">&gt;</div>
+				<!-- <ul class="point"> -->
+			</div>
+		</div>
+		<div class="bannner_right">
+			<a href="" class="pic_show">
+				<img src="img/13.jpg" alt="">
+			</a>
+			<div class="box">
+				<section id="head">
+					<h1 class="head_active" title="信息公告">信息公告</h1>
+					<h1 class="" title="服务公告">服务公告</h1>
+				</section>
+				<section class="content">
+					<div class="content_active" id="信息公告">
+						
+					</div>
+					<div class="" id="服务公告"></div>
+				</section>
+			</div>
+		</div>
+<!-- 		<div class="infor_content">
+			<div class="information">
+				<div class="infor_left">
+					<span>信息公告</span>
+				</div>
+				<a href="" class="infor_right">
+					<span>服务公告</span>
+				</a>
+			</div>
+			<ul class="content">
+				<li>
+					<i class="iconfont">&#xe619;</i>
+					<a href="" title="App爆品直降">App爆品直降</a>
+				</li>
+				<li>
+					<i class="iconfont">&#xe619;</i>
+					<a href="" title="开学季中小学教辅每满79减30">开学季中小学教辅每满79减30</a>
+				</li>
+				<li>
+					<i class="iconfont">&#xe619;</i>
+					<a href="" title="女装精选每满100减50">女装精选每满100减50</a>
+				</li>
+				<li>
+					<i class="iconfont">&#xe619;</i>
+					<a href="" title="女装精选每满100减50">万种童书每满150减50！</a>
+				</li>
+				<li>
+					<i class="iconfont">&#xe619;</i>
+					<a href="" title="精选商品满299减200元">精选商品满299减200元</a>
+				</li>
+			</ul>
+		</div> -->
+		<a href="" class="lipin">
+			<img src="img/14.jpg" alt="">	
+		</a>
+	</div>
+	<!-- banner结束 -->
+
+	<!-- 秒杀栏开始 -->
+	<div class="seckill">
+		<div class="head">
+			<div class="head_left">
+				<div class="time">
+					<a href="" class="title">
+						<!-- <img src="img/15.png" alt=""> -->
+					</a>
+					<!-- <i class="iconfont">&#xe67c;</i> -->
+					<span>00</span>
+					<i>:</i>
+					<span>23</span>
+					<i>:</i>
+					<span>28</span>
+				</div>
+				<ul class="text">
+					<li>
+						<a href="">00:00场</a>
+					</li>
+					<li>
+						<a href="">10:00场</a>
+					</li>
+					<li>
+						<a href="">12:00场</a>
+					</li>
+					<li>
+						<a href="">17:00场</a>
+					</li>
+					<li>
+						<a href="">22:00场</a>
+					</li>
+				</ul>
+			</div>
+			<div class="head_right">
+				<h3>厂商周</h3>
+				<ul>
+					<li>
+						<a href=""></a>
+					</li>
+					<li>
+						<a href=""></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<ul class="show">
+			<li>
+				<a href="">
+					<img src="img/16.jpg" alt="">
+				</a>
+				<div class="name">
+					<div class="line">
+						<div class="line_small"></div>
+					</div>
+					<div class="miaosha">秒杀价21%</div>
+					<a href="" class="text1">
+						国家地理百科全书合辑 中国 环球
+					</a>
+				</div>
+				<div class="price">
+					秒杀价：￥
+					<span>159.2</span>
+					<span class="del">199</span>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/17.jpg" alt="">
+				</a>
+				<div class="name">
+					<div class="line">
+						<div class="line_small"></div>
+					</div>
+					<div class="miaosha">秒杀价21%</div>
+					<a href="" class="text1">
+						国家地理百科全书合辑 中国 环球
+					</a>
+				</div>
+				<div class="price">
+					秒杀价：￥
+					<span>159.2</span>
+					<span class="del">199</span>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/18.jpg" alt="">
+				</a>
+				<div class="name">
+					<div class="line">
+						<div class="line_small"></div>
+					</div>
+					<div class="miaosha">秒杀价21%</div>
+					<a href="" class="text1">
+						国家地理百科全书合辑 中国 环球
+					</a>
+				</div>
+				<div class="price">
+					秒杀价：￥
+					<span>159.2</span>
+					<span class="del">199</span>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/19.jpg" alt="">
+				</a>
+				<div class="name">
+					<div class="line">
+						<div class="line_small"></div>
+					</div>
+					<div class="miaosha">秒杀价21%</div>
+					<a href="" class="text1">
+						国家地理百科全书合辑 中国 环球
+					</a>
+				</div>
+				<div class="price">
+					秒杀价：￥
+					<span>159.2</span>
+					<span class="del">199</span>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/20.jpg" alt="">
+				</a>
+				<div class="name">
+					<div class="line">
+						<div class="line_small"></div>
+					</div>
+					<div class="miaosha">秒杀价21%</div>
+					<a href="" class="text1">
+						国家地理百科全书合辑 中国 环球
+					</a>
+				</div>
+				<div class="price">
+					秒杀价：￥
+					<span>159.2</span>
+					<span class="del">199</span>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/26.jpg" alt="">
+				</a>
+				<a href="">
+					<img src="img/27.jpg" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/21.jpg" alt="">
+				</a>
+				<div class="name">
+					<div class="line">
+						<div class="line_small"></div>
+					</div>
+					<div class="miaosha">秒杀价21%</div>
+					<a href="" class="text1">
+						国家地理百科全书合辑 中国 环球
+					</a>
+				</div>
+				<div class="price">
+					秒杀价：￥
+					<span>159.2</span>
+					<span class="del">199</span>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/22.jpg" alt="">
+				</a>
+				<div class="name">
+					<div class="line">
+						<div class="line_small"></div>
+					</div>
+					<div class="miaosha">秒杀价21%</div>
+					<a href="" class="text1">
+						国家地理百科全书合辑 中国 环球
+					</a>
+				</div>
+				<div class="price">
+					秒杀价：￥
+					<span>159.2</span>
+					<span class="del">199</span>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/23.jpg" alt="">
+				</a>
+				<div class="name">
+					<div class="line">
+						<div class="line_small"></div>
+					</div>
+					<div class="miaosha">秒杀价21%</div>
+					<a href="" class="text1">
+						国家地理百科全书合辑 中国 环球
+					</a>
+				</div>
+				<div class="price">
+					秒杀价：￥
+					<span>159.2</span>
+					<span class="del">199</span>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/24.jpg" alt="">
+				</a>
+				<div class="name">
+					<div class="line">
+						<div class="line_small"></div>
+					</div>
+					<div class="miaosha">秒杀价21%</div>
+					<a href="" class="text1">
+						国家地理百科全书合辑 中国 环球
+					</a>
+				</div>
+				<div class="price">
+					秒杀价：￥
+					<span>159.2</span>
+					<span class="del">199</span>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/25.jpg" alt="">
+				</a>
+				<div class="name">
+					<div class="line">
+						<div class="line_small"></div>
+					</div>
+					<div class="miaosha">秒杀价21%</div>
+					<a href="" class="text1">
+						国家地理百科全书合辑 中国 环球
+					</a>
+				</div>
+				<div class="price">
+					秒杀价：￥
+					<span>159.2</span>
+					<span class="del">199</span>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/28.jpg" alt="">
+				</a>
+				<a href="">
+					<img src="img/29.jpg" alt="">
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- 秒杀栏结束 -->
+
+	<!-- 唯品会开始 -->
+	<div class="weipin">
+		<div class="head">
+			<a href="" class="head_left">
+				<img src="img/42.png" alt="">
+			</a>
+			<a href="" class="head_right">每天10点上新</a>
+		</div>
+		<div class="show">
+			<a href="">
+				<img src="img/30.jpg" alt="">
+			</a>
+			<a href="" class="dong">
+				<img src="img/31.jpg" alt="">
+			</a>
+			<a href="" class="dong">
+				<img src="img/32.jpg" alt="">
+			</a>
+			<a href="" class="dong">
+				<img src="img/33.jpg" alt="">
+			</a>
+			<a href="" class="dong">
+				<img src="img/34.jpg" alt="">
+			</a>
+			<a href="" class="dong">
+				<img src="img/35.jpg" alt="">
+			</a>
+			<a href="" class="show_dong">
+				<!-- <a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a> -->
+			</a>
+			<a href="" class="dong1">
+				<img src="img/36.jpg" alt="">
+			</a>
+			<a href="" class="dong1">
+				<img src="img/37.jpg" alt="">
+			</a>
+			<a href="" class="dong1">
+				<img src="img/38.jpg" alt="">
+			</a>
+			<a href="" class="dong1">
+				<img src="img/39.jpg" alt="">
+			</a>
+			<a href="" class="dong1">
+				<img src="img/40.jpg" alt="">
+			</a>
+		</div>
+	</div>
+	<!-- 唯品会结束 -->
+
+	<!-- 创意文具开始 -->
+	<div class="originality">
+		<div class="ori_head">
+			<a href="" title="创意文具">创意文具</a>
+		</div>
+		<div class="ori_bottom">
+			<a href="">
+				<img src="img/55.jpg" alt="">
+			</a>
+			<a href="">
+				<img src="img/56.jpg" alt="">
+			</a>
+			<a href="">
+				<img src="img/57.jpg" alt="">
+			</a>
+			<a href="">
+				<img src="img/58.jpg" alt="">
+			</a>
+			<a href="">
+				<img src="img/59.jpg" alt="">
+			</a>
+		</div>
+	</div>
+	<!-- 创意文具结束 -->
+
+	<!-- 为你推荐开始 -->
+	<div class="recommend">
+		<h3 class="head">为您推荐</h3>
+		<div class="rec_bottom">
+			<ul class="top">
+				<li>
+					<a href="" class="picture">
+						<img src="img/43.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/44.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/45.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/46.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/47.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/48.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/49.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/50.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/51.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/52.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/53.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/54.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/46.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/51.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/48.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/54.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/44.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/54.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/43.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/47.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/49.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/50.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/53.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/46.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/48.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/44.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/47.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/45.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/49.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/43.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+
+			</ul>
+			<ul class="top">
+				<li>
+					<a href="" class="picture">
+						<img src="img/43.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/44.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/45.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/46.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/47.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/48.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/49.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/50.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/51.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/52.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/53.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/54.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/46.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/47.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/48.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/50.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/52.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/54.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/43.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/52.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/49.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/50.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/53.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/46.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/48.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/44.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/47.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/45.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/49.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+				<li>
+					<a href="" class="picture">
+						<img src="img/43.jpg" alt="">
+					</a>
+					<p class="name">
+						<a href="">写给儿童的中国历史（全14册）</a>
+					</p>
+					<p class="money">
+						<span>￥<span>292.50</span>
+						</span>
+					</p>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+	<!-- 为你推荐结束 -->
+
+	<!-- 网点导航开始 -->
+	<div class="foot">
+		<div class="foot_head">
+			<div class="foot-h-1">
+				
+			</div>
+		</div>
+	</div>
+	<!-- 网点导航结束 -->
+</body>
+</html>
+
+<script src="js/swiper.min.js"></script>
+<script> 
+var mySwiper = new Swiper('.swiper-container', {
+	autoplay: 1000,//可选选项，自动滑动
+	effect : 'fade',
+	prevButton:'.swiper-button-prev',
+	nextButton:'.swiper-button-next',
+	
+	pagination: '.swiper-pagination',
+	paginationClickable: true,
+	paginationBulletRender: function (swiper, index, className) {
+	  return '<span class="' + className + '">' + (index + 1) + '</span>';
+  }
+})
+</script>
+<script> 
+window.onload = function() {
+	var e, i = 0;
+	//获取标题
+	while (e = document.getElementById('head').getElementsByTagName ('h1') [i++]) {
+		if (e.className == 'head_active' || e.className == '') {
+		e.onclick = function () {
+			// 分别获取所有的标题和内容
+			var getEls1 = document.querySelectorAll("#head h1");
+			var getEls2 = document.querySelectorAll(".content div");
+				// 循环遍历每个标题、每个内容进行样式初始化
+				for (var z=0; z<getEls1.length; z++) {
+				getEls1[z].className='';
+				getEls2[z].className='';
+				}
+			// 给当前点击的标题进行样式设置
+			this.className = 'head_active';
+			// 通过关联的title属性和id属性
+			// 先获取当前选中标题的title属性
+			var target = this.getAttribute('title');
+			// 通过已经的title属性获取对应位置的内容，进行样式设置
+			document.getElementById(target).className = "content_active";
+			}
+		}
+	}
+}
+</script>
